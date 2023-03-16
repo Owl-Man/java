@@ -46,6 +46,16 @@ public class HW2 {
 
         //Задача 9 (по порядку 4-ая)
         int n_9 = scanner.nextInt();
+        String star = "*";
+        int i9 = 1;
+
+        while (i9 <= n_9) {
+            System.out.println(star);
+            i9++;
+            star += "*";
+        }
+
+        /*int n_9 = scanner.nextInt();
 
         for (int i = 1; i <= n_9; i++) {
             for (int j = 1; j <= i; j++) {
@@ -53,10 +63,21 @@ public class HW2 {
             }
 
             System.out.println();
-        }
+        }*/
 
         //Задача 10 (по порядку 5-ая)
+        int i_10 = 1;
         int n_10 = scanner.nextInt();
+        String star_10 = "*";
+        int star2 = 1;
+
+        while (i_10 <= n_10) {
+            System.out.println(" ".repeat(n_10 - i_10) + star_10.repeat(star2));
+            i_10++;
+            star2 += 2;
+        }
+
+        /*int n_10 = scanner.nextInt();
 
         for (int i = 1; i <= n_10; i++) {
             for (int j = 1; j <= n_10 - i; j++) {
@@ -68,6 +89,6 @@ public class HW2 {
             }
 
             System.out.println();
-        }
+        }*/
     }
 }
