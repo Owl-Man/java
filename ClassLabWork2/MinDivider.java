@@ -1,4 +1,4 @@
-package LabWork2;
+package ClassLabWork2;
 import java.util.Scanner;
 
 public class MinDivider {
